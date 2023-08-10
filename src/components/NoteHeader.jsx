@@ -16,7 +16,7 @@ function NoteHeader({ text }) {
         </div>
         <div className="col-lg-4 col-sm-12 box">
           📜Paragraph
-          <p className="count-paragraph">{!text ? 0 : text.trim().split(/\n+/).length}</p>
+          <p className="count-paragraph">{!text ? 0 : text.trim().split(/\n/).length}</p>
         </div>
       </div>
     </div>
